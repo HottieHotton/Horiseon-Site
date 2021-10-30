@@ -8,6 +8,8 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Started Header */
+
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -24,7 +26,7 @@ body {
     color: #d9dcd6;
 }
 
-.header div {
+.header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,11 +34,11 @@ body {
     font-size: 20px;
 }
 
-.header div ul {
+.header section ul {
     list-style-type: none;
 }
 
-.header div ul li {
+.header section ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -45,6 +47,8 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
+
+/* Ending Header */
 
 p {
     font-size: 16px;
@@ -69,11 +73,7 @@ p {
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/* Benefits Start */
 
 .benefits {
     margin-right: 20px;
@@ -102,6 +102,16 @@ p {
     text-align: center;
 }
 
+/* Benefits End */
+
+/* Main Content Starts */
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
 .content-objects{
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +130,10 @@ p {
     font-size: 36px;
 }
 
+/* Main Content Ends */
+
+/* Footer Starts */
+
 .footer {
     padding: 30px;
     clear: both;
@@ -130,3 +144,5 @@ p {
 .footer h2 {
     font-size: 20px;
 }
+
+/* Footer Ends */
